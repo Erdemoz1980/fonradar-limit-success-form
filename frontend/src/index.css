@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+li{
+ list-style:none;
+}
+
+.limit_bltr_success29{
+  max-width:1440px;
+  margin: auto;
+}
+
+.container{
+  max-width:1360px;
+  margin:1rem 2rem;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color:#0d0f7b;
+  font-size: 16px;
+  font-weight:600;
+  margin-bottom: 33px;
+
+
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.menu li{
+  margin-right: 32px;
+}
+
+.notifications{
+  display: flex;
+  align-items: center;
+
+}
+.icon-container{
+  margin-right: 32px;
+  position: relative;
+}
+
+.icon-container i{
+  font-size: 24px;
+}
+
+.red-dot{
+  position: absolute;
+  top:-1px;
+  right: -1px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color:#e34230;
+}
+
+.notifications .anchor-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0f7b;
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+
+}
+
+.notifications .anchor-container a{
+  color:#fff;
+  text-decoration: none;
+  font-weight:500
+}
+
+.rectangle-left{
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border:solid 1px #e6f1ff;
+  height: 128px;
+  width: 320px;
+  padding:10px 10px 0 10px;
+}
+
+
+.tedarik-menu, .limit-menu{
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  
+}
+
+.tedarik-menu h5, .limit-menu h5{
+  color:#0d0f7b;
+}
+
+.tedarik-bg{
+  background-color: #f0f7ff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.table-section {
+  position: absolute;
+  top:65px;
+  left: 400px;
+}
+
+.table-content{
+  border:1px solid #e6f1ff;
+  border-radius: 8px;
+  padding:1rem;
+}
+
+.tedarik-menu img, .limit-menu img{
+  margin-right: 12px;
+}
+.table-title{
+  color:#001444;
+}
+
+th{
+  color:#0d0f7b;
+  padding-bottom: 1rem;
+}
+
+td, th {
+  text-align: left;
+  padding-right: 2rem;
+}
+
+
+
